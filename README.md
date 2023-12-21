@@ -14,6 +14,7 @@ Technologies used: Java, Spring, JPA, MySQL, Azure ML model, Google Maps API, Py
 5. The list of real estate with their fitness percentage is sent in a response to the frontend client. 
 
 Structure: 
+
 /Wasi: Spring Application that handles business logic, database connection and serves as the middle point between the frontend client and the ML model residing in Azure. Utilizes Clean Architecture which separates the app in 3 layers: Infrastructure, Use Cases and Entities.
 
 /SQL Inserts: Here we will find the initial inserts for the database.
