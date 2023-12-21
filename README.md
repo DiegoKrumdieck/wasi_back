@@ -1,7 +1,5 @@
 # WASI Backend
 
-![alt text](https://github.com/DiegoKrumdieck/wasi_back/blob/main/dressedRobot.jpg?raw=true)
-
 Backend for WASI, a smart Real Estate web application, which utilizes user data to predict fitness to locations in accordance to places of interest (e.g Bank, pharmacy, school, etc) 
 
 Technologies used: Java, Spring, JPA, MySQL, Azure ML model, Google Maps API, Python, IBM Watson
@@ -27,3 +25,6 @@ Structure:
 1. GENERATE_REAL_ESTATE_IMAGES_RANDOM: Used to assign random dummy images to Real Estate records and generate the SQL statements to insert them. Real images were not required for the proyect. 
 
 2. GENERATE_PLACES_OF_INTEREST: Connects to the Google Maps API and searches for places of interest within 1km of each location, linking the real estate to the place of interest if at least one location is found (e.g if one bank is found within 1km of distance of real estate with id 10, there will be a relationship between that real estate record and the bank record, resulting in a SQL insert statement which is also generated in the notebook).
+
+
+![alt text](https://github.com/DiegoKrumdieck/wasi_back/blob/main/dressedRobot.jpg?raw=true)
