@@ -1,6 +1,6 @@
 # WASI Backend
 
-![alt text][(https://github.com/DiegoKrumdieck/wasi_back/blob/main/image.jpg?raw=true](https://github.com/DiegoKrumdieck/wasi_back/blob/main/dressedRobot.jpg?raw=true)
+![alt text](https://github.com/DiegoKrumdieck/wasi_back/blob/main/dressedRobot.jpg?raw=true)
 
 Backend for WASI, a smart Real Estate web application, which utilizes user data to predict fitness to locations in accordance to places of interest (e.g Bank, pharmacy, school, etc) 
 
