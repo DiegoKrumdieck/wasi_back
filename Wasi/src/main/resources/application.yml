@@ -1,0 +1,40 @@
+server:
+  port: 8180
+spring:
+  session:
+    store-type: jdbc
+    jdbc:
+      initialize-schema: always
+  application:
+    name: wasi
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: enrutaglp.123
+    url: jdbc:mysql://localhost:3307/db_wasi?serverTimezone=America/Lima
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  mail:
+    host: smtp.gmail.com 
+    port: 587
+    username: wasi.app.peru@gmail.com
+    password: fakepassword
+    properties: 
+      mail: 
+        smtp: 
+          auth: true
+          starttls: 
+            enable: true
+azure-ml: 
+  url: ""
+  api-key: "" 
+correo:
+  remitente: wasi.app.peru@gmail.com
+  asunto: WASI - ¡{nombre-interesado} esta interesado en tu propiedad en {direccion-inmueble}! 
+  contenido: "Has recibido un nuevo mensaje de contacto en WASI:\nNuevo interesado en tu propiedad ubicada en:{direccion-inmueble}.\nDatos de interesado:\nDNI: {dni}\nNombre: {nombre}\nCorreo: {correo}\nNúmero de Celular: {celular}\nMensaje: {mensaje}"
+

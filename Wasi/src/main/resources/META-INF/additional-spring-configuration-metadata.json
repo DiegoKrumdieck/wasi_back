@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "correo.remitente",
+    "type": "java.lang.String",
+    "description": "A description for 'correo.remitente'"
+  },
+  {
+    "name": "correo.asunto",
+    "type": "java.lang.String",
+    "description": "A description for 'correo.asunto'"
+  },
+  {
+    "name": "correo.contenido",
+    "type": "java.lang.String",
+    "description": "A description for 'correo.contenido'"
+  },
+  {
+    "name": "azure-ml.url",
+    "type": "java.lang.String",
+    "description": "A description for 'azure-ml.url'"
+  },
+  {
+    "name": "azure-ml.api-key",
+    "type": "java.lang.String",
+    "description": "A description for 'azure-ml.api-key'"
+  }
+]}
