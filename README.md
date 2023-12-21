@@ -1,4 +1,7 @@
 # WASI Backend
+
+![alt text](https://drive.google.com/file/d/1H8UoJOtYfYvAZxg0JwN42gMzzbDlnTTs/view?usp=sharing)
+
 Backend for WASI, a smart Real Estate web application, which utilizes user data to predict fitness to locations in accordance to places of interest (e.g Bank, pharmacy, school, etc) 
 
 Technologies used: Java, Spring, JPA, MySQL, Azure ML model, Google Maps API, Python, IBM Watson
